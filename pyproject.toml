@@ -1,0 +1,18 @@
+[project]
+name = "semantic-kernel-app"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ylich"}
+]
+requires-python = ">=3.12,<4.0.0"
+dependencies = [
+    "semantic-kernel (>=1.39.4,<2.0.0)",
+    "ollama (>=0.6.1,<0.7.0)",
+    "fastapi (>=0.129.0,<0.130.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
