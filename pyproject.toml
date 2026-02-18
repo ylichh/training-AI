@@ -9,7 +9,8 @@ requires-python = ">=3.12,<4.0.0"
 dependencies = [
     "semantic-kernel (>=1.39.4,<2.0.0)",
     "ollama (>=0.6.1,<0.7.0)",
-    "fastapi (>=0.129.0,<0.130.0)"
+    "fastapi (>=0.129.0,<0.130.0)",
+    "openai (>=1.0.0,<2.0.0)"
 ]
 
 
